@@ -1,6 +1,6 @@
 module Memorable 
   
-  module ClassInstances
+  module ClassMethods
     def reset_all
       self.all.clear
     end
@@ -9,5 +9,7 @@ module Memorable
       self.all.count
     end
   end
+  
+  
   
 end
